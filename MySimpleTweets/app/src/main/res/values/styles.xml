@@ -1,0 +1,28 @@
+<resources>
+
+    <color name="simple_yellow">#ECD078</color>
+    <color name="primary_blue">#3B94D9</color>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary_blue</item>
+        <item name="android:logo">@drawable/ic_twitter</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/primary_blue</item>
+    </style>
+
+
+</resources>
